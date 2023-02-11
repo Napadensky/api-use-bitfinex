@@ -1,0 +1,7 @@
+@hostname = http://localhost
+@port = 3000
+@host = {{hostname}}:{{port}}
+
+###  http://localhost:3000/orders/tBTCUSD/BUY/0.5'
+# explame: GET {{host}}/:pair/prices
+GET {{host}}/orders/tBTCUSD

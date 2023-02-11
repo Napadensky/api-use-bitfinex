@@ -1,0 +1,13 @@
+@hostname = http://localhost
+@port = 3000
+@host = {{hostname}}:{{port}}
+
+###  http://localhost:3000/market/tBTCUSD/BUY/0.5'
+# explame: GET {{host}}/:pair/:operation/:ammount/ 
+GET {{host}}/market/tBTCUSD/BUY/0.5
+
+
+
+### http://localhost:3000/market/tBTCUSD/BUY/0.5/limit/100
+# explame: GET {{host}}/:pair/:operation/:ammount/limit/:limit
+GET {{host}}/market/tBTCUSD/BUY/0.5/limit/100
