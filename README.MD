@@ -1,30 +1,43 @@
-Challenge Rather Lab 
+# Challenge Rather Lab
 
-== Stack ==
-Node.js v16
-Test: jest
-config: dotenv
-Http: express.js
-pino: logging
-linter: tslint
+## == Stack ==
 
+- Node.js v16
+- Test: jest
+- config: dotenv
+- Http: express.js
+- pino: logging
+- linter: tslint
 
-== comands ==
-install dependencies
-* npm install
+## == Comands ==
 
-to run the project
-* npm run dev
+- install dependencies
 
-to run the test
-* npm run test
+```cmd
+ npm install
+```
 
-to run the linter
-* npm run lint
+- to run the project
 
+```cmd
+ npm run dev
+```
 
-== Recommendation ==
-I recommend to install an extension to test the enpoints requested by the challenge 
+- to run the test
+
+```cmd
+ npm run test
+```
+
+- to run the linter
+
+```cmd
+ npm run lint
+```
+
+## == Recommendation ==
+
+I recommend to install an extension to test the enpoints requested by the challenge
 
 Name: REST Client
 Id: humao.rest-client
@@ -33,4 +46,4 @@ Version: 0.25.1
 Publisher: Huachao Mao
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=humao.rest-client
 
-In "./src" I proposed to create a folder ("./src/__http__" ) to create *.http files configured for easy execution.
+In "./src" I proposed to create a folder ("./src/**http**" ) to create \*.http files configured for easy execution.
